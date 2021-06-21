@@ -1,3 +1,3 @@
 # geek
 
-code for homework
+Code for homework
