@@ -11,7 +11,7 @@
 class Solution {
     
     // 分治算法 通常用递归实现
-    // 首先把k组链表分成两组 每组k/2个链表
+    // 每次把k组链表分成两组 每组k/2个链表
     
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) return null;
