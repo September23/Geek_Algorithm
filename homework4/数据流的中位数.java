@@ -33,6 +33,7 @@ class MedianFinder {
     }
     
     public double findMedian() {
+        // 判断奇数偶数的情况
         if (count % 2 == 1) {
             return maxHeap.peek() / 1.0;
         } else {
